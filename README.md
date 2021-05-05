@@ -1,2 +1,2 @@
 # AndroidClearChroma
-# AndroidClearChroma module for VaultPass application
+module for VaultPass application
