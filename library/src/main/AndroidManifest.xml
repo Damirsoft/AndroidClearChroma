@@ -1,0 +1,5 @@
+<manifest package="com.damirsoft.androidclearchroma"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-sdk tools:overrideLibrary="android.support.v14.preference" />
+    <application/>
+</manifest>

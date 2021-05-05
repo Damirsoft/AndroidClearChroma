@@ -1,0 +1,49 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="rgb"
+        android:title="RGB sample"
+        android:summary="[color]"
+        android:enabled="false"/>
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="argb"
+        android:title="ARGB sample"
+        android:summary="[color]"
+        app:chromaColorMode="ARGB"
+        android:defaultValue="@android:color/black"/>
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="argbhex"
+        android:title="ARGB and HEX indicator sample"
+        android:summary="ARGB and HEX [color]"
+        app:chromaColorMode="ARGB"
+        app:chromaIndicatorMode="HEX"
+        android:defaultValue="#ae4f4f"/>
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="hsv"
+        android:title="HSV sample"
+        app:chromaColorMode="HSV"
+        android:defaultValue="#649e65"/>
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="roundedquare"
+        android:icon="@drawable/palette"
+        android:title="ARGB sample with rounded square sample"
+        app:chromaShapePreview="ROUNDED_SQUARE"
+        app:chromaColorMode="ARGB"
+        android:defaultValue="#ffee00"/>
+
+    <com.damirsoft.androidclearchroma.ChromaPreferenceCompat
+        android:key="customsummary"
+        android:icon="@drawable/palette"
+        android:title="ARGB sample with square sample and custom summary"
+        android:summary="Example summary"
+        app:chromaShapePreview="SQUARE"
+        app:chromaColorMode="ARGB"
+        android:defaultValue="#ff0004"/>
+
+</androidx.preference.PreferenceScreen>
